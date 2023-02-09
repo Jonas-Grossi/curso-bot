@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Jonas-Grossi/curso-bot#readme",
   "dependencies": {
-    "telegraf": "^3.40.0"
+    "axios": "0.17.1",
+    "moment": "2.20.1",
+    "telegraf": "3.17.3"
   }
 }
