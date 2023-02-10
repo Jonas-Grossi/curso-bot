@@ -22,12 +22,13 @@ bot.start(async ctx => {
 bot.on('text', ctx => {
     lista.push(ctx.update.message.text)
     ctx.reply(`${ctx.update.message.text}  adicionado!`, botoes())
-
+    
 })
 
 bot.action(/delete (.+)/, ctx => {
     lista = lista.filter(item => item !== ctx.match[1])
-    ctx.reply(`${ctx.match[1]} deletado!`,botoes())
+    ctx.reply(`${ctx.match[1]} deletado!`, botoes())
+    
 })
 
 

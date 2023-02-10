@@ -19,20 +19,22 @@ bot.start(async ctx => {
     await ctx.reply(`Seja bem vindo, ${name}!`)
     await ctx.reply('Escreva os itens que você deseja adicionar...')
     ctx.session.lista = []
+  //  console.log(ctx.session.lista)
+
     
 })
 
 bot.on('text', ctx => {
     let msg = ctx.update.message.text
-    console.log(ctx.session.lista)
+    //console.log(ctx.session.lista)
     ctx.session.lista.push(msg)
     ctx.reply(`${msg} adicionado!`, botoes(ctx.session.lista))
 })
 
-/*bot.action(/delete (.+)/, ctx => {
+bot.action(/delete (.+)/, ctx => {
     ctx.session.lista = ctx.session.lista.filter(
         item => item !== ctx.match[1])
     ctx.reply(`${ctx.match[1]} deletado!`, botoes(ctx.session.lista))
-})*/
+})
 
 bot.startPolling()
