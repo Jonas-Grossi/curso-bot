@@ -1,4 +1,4 @@
-const env = require('../.env')
+const env = require('../../.env')
 const Telegraf = require('telegraf')
 const Extra = require('telegraf/extra')
 const Markup = require('telegraf/markup')
@@ -22,7 +22,7 @@ bot.start(async ctx => {
 bot.use((ctx, next) => {
 
     const chatId = ctx.chat.id
-    console.log(ctx.chat.id)
+    
     if (!dados.hasOwnProperty(chatId)) dados[chatId] = []
     ctx.itens = dados[chatId]
     next()
