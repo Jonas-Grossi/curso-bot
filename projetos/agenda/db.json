@@ -1,0 +1,81 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "descricao": "Gravar as aulas do curso de Bot",
+      "dt_previsao": "2018-05-14",
+      "dt_conclusao": null,
+      "observacao": "Lembrar de verificar as baterias dos equipamentos"
+    },
+    {
+      "id": 2,
+      "descricao": "Editar as aulas do curso Bot",
+      "dt_previsao": "2018-05-15",
+      "dt_conclusao": null,
+      "observacao": "Não esquecer de editar"
+    },
+    {
+      "descricao": "Cancelar",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 3
+    },
+    {
+      "descricao": "Cancelar",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 4
+    },
+    {
+      "descricao": "Cancelar",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 5
+    },
+    {
+      "descricao": "Cancelar",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 6
+    },
+    {
+      "descricao": "Ok",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 7
+    },
+    {
+      "descricao": "Cancelar",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 8
+    },
+    {
+      "descricao": "Hoje",
+      "dt_previsao": null,
+      "dt_conclusao": "2023-02-17",
+      "observacao": null,
+      "id": 9
+    },
+    {
+      "descricao": "/hoje",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 11
+    },
+    {
+      "descricao": "/hoje",
+      "dt_previsao": null,
+      "dt_conclusao": null,
+      "observacao": null,
+      "id": 12
+    }
+  ]
+}
